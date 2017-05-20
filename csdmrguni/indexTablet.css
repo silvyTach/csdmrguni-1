@@ -1,0 +1,216 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@media all and (min-width : 768px)  and (max-width : 1024px) {
+
+#frontImage {
+	padding:0;
+	height:50%;
+}
+#front {
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Questrial', sans-serif;
+	width:100%;
+	height: 75vw;
+	padding:0;
+	margin-bottom:-37%;
+}
+#front h1 {
+	font-size: 3.7vw;
+	margin:0;
+}
+#front h2 {
+	font-size: 3vw;
+	margin-top:-24%;
+	margin-bottom:0;
+}
+#front p {
+	text-transform: none;
+	margin-top: 2%;
+	font-size: 1.2vw;
+}
+#news h1, #events h1 {
+	font-size:250%;
+	font-weight:500;
+	text-transform:uppercase;
+	padding:0;
+}
+#news {
+	padding:0;
+}
+#news1 {
+	background-image: url(news1.jpg);
+	background-repeat: no-repeat;
+	background-size: 98.4% 100%;
+	height: 330px;
+	
+}
+#news1 .caption {
+	cursor:pointer;	
+	background-color:#1D1D1F;
+	color:white;
+	margin-top:45%;
+	float:right;
+	height:30%;
+}
+#news1 .title {
+	font-size:150%;
+	font-weight:500;
+	margin:2%;
+	/display:none;
+}
+#news1 .author {
+	font-size:65%;
+	font-weight:500;
+	margin:2%;
+	/display:none;
+}
+#firstParagraph {
+	display:none;
+	text-align:justify;
+	font-style:oblique;
+	padding:1%;
+}
+/*
+#news1 caption:hover #firstParagraph {
+	display:block;
+}
+#news1 caption:hover #news1 .title, #news1 caption: hover #news1.author {
+	display:none;
+}*/
+#news2 {
+	background-image: url(news2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 160px;
+	padding:0;
+}
+#news3 {
+	margin-top:10px;
+	background-image: url(news3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 160px;
+	padding:0;
+}
+.caption {
+	cursor:pointer;	
+	background-color:#1D1D1F;
+	color:white;
+	margin-top:45%;
+	float:right;
+	padding:2%;
+	height:25%;
+}
+.title {
+	font-size:100%;
+	margin:1%;
+	padding:1%;
+}
+/*.author {
+	font-size:xx-small;
+	font-weight:500;
+	margin:2%;
+}*/
+#img2 {
+	max-height: 200px;
+}
+#img3 {
+	margin-top: 10px;
+	max-height: 200px;
+}
+#moreNews, #moreEvents {
+	padding:0;
+	margin:0;
+	padding-bottom:6%;
+}
+#moreNews img, #moreEvents img {
+	width:7%;
+	padding-top:1%;
+	margin:0;
+}
+#moreNews p, #moreEvents p{
+	padding-top:0.5%;
+	margin-right:-2%;
+	font-size:70%;
+	font-weight:500;
+	color:#646567;
+}
+#moreNews p:hover, #moreNews img:hover, #moreEvents p:hover, #moreEvents img:hover {
+	cursor:pointer;
+}
+#events {
+	margin-top:0;
+	padding:0;
+}
+#event1 {
+	padding:0;
+	margin:0;
+	height:300px;
+}
+#event2, #event3 {
+	height:146.5px;
+	margin-bottom:1%;
+}
+.bigEventDate {
+	height:100%;
+	padding:0;
+	margin:0;
+}
+.bigDay {
+	height:80%;
+	width:100%;
+	padding:0;
+}
+.bigDay:hover {
+	content:url(bigDateHover.png);
+}
+.bigMonth {
+	background-color:#D4D5D7;
+	text-align:center;
+	height:19.3%;
+	margin:0;
+	font-size:225%;
+	padding-top:8%;
+}
+.bigEventDescription {
+	background-color:#EFEFEF;
+	height:100%;
+	font-size:175%;
+	text-align:left;
+	font-weight:500;
+}
+.smallEventDate {
+	height:100%;
+	padding:0;
+	margin:0;
+}
+.smallDay {
+	height:75%;
+	width:100%;
+	padding:0;
+}
+#smallDay1:hover {
+	content:url(smallDay1Hover.png)
+}
+#smallDay2:hover {
+	content:url(smallDay2Hover.png)
+}
+.smallMonth {
+	background-color:#D4D5D7;
+	text-align:center;
+	height:23.5%;
+	margin:0;
+	font-size:130%;
+	padding-top:10%;
+}
+.smallEventDescription {
+	background-color:#EFEFEF;
+	height:100%;
+	font-size:100%;
+	text-align:left;
+	font-weight:500;
+}
+
+}

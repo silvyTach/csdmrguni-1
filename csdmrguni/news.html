@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content= "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<title>News</title>
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jQueries.js"></script><!--   -->
+<style type="text/css">
+@import url("unsemantic-grid-responsive-tablet.css");
+</style>
+<link href="menuDesktop.css" rel="stylesheet" type="text/css">
+<link href="menuMobile.css" rel="stylesheet" type="text/css">
+<link href="menuTablet.css" rel="stylesheet" type="text/css">
+<link href="news.css" rel="stylesheet" type="text/css">
+<!-- twitter plugin start -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<!-- twitter plugin end-->
+
+</head>
+
+<body>
+<main>
+<header class = "grid-container" id= "logos">
+ <section class="grid-25 suffix-50 tablet-grid-25 tablet-suffix-50 mobile-grid-100" >  <!--icons for the hamburger menu  -->
+    <img src="menuIcon.png" alt="Hamburger menu" id ="menuIcon" class= "hide-on-tablet hide-on-desktop mobile-grid-10">
+    
+ 
+ <a href="index.html"><img id= "rguLogo" src="RGU LOGO(2).jpg" alt="RGU Logo" class= "mobile-grid-90"></a>    <!-- RGU logo -->
+ </section>
+ <section id= "socialMediaLogos" class="grid-25 tablet-grid-25 mobile-grid-100 hide-on-mobile">      <!-- Logos of social media -->
+ <a href="https://www.instagram.com/robertgordonuni/"><img id="inst" class="mobile-grid-33" src="instagramLogo.png" alt="Instagram Logo" /></a>
+<a href="https://twitter.com/robertgordonuni"><img id="tw" class= "mobile-grid-33" src="twitterLogo.png" alt="Twitter Logo" /></a>
+<a href="https://www.facebook.com/robertgordonuniversity/"><img id="fb" class= "mobile-grid-33" src="fbLogo.png" alt="Facebook Logo" /></a> 
+ </section>
+
+ </header>    
+ <!-- Navigation bar -->
+ <nav class= "grid-100 tablet-grid-100 mobile-grid-100 " id= "nav" >
+  <!-- Menu start -->
+  
+ <section class= "grid-60 prefix-20 tablet-grid-60 tablet-prefix-10 tablet-suffix-5 mobile-grid-100" id= "menu">
+ <li class="dropdown"><a id = "aboutUs" class="dropdwnBtn" href="#s1">About Us<img src="menuExit.png" alt="Hamburger menu exit" id ="menuExit" class= "hide-on-tablet hide-on-desktop mobile-grid-10"></a>                                <!-- first menu section -->
+                <div class="subs dropdown-content">
+                    <a href="contacts.html">Contact us</a>
+                    <a href="#">Staff list</a>
+                    <a href="#">FAQ</a>
+                </div>
+      </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s2">Our Courses</a>                    <!-- second menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Undegraduate</a>
+                    <a href="#">Postgraduate</a>
+                    <a id="sub" href="#">Research</a>
+                    <ul id="subItems">                                                            <!-- submenu section -->
+                        <a  href="#">Internship</a>
+                        <a  href="#">PhD research</a>
+                        <a  href="#">Fully funded research opportunities</a>
+                    </ul>
+                    <a href="#">Part time</a>
+                    <a href="#">Distance learning</a>
+                    <a href="#">Short courses</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s3">News & Events</a>                   <!-- third menu section -->
+                <div class="dropdown-content">
+                    <a href="news.html">News</a>
+                    <a href="events.html">Events</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s4">Opportunities</a>                    <!-- fourth menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Talent Exchange</a>
+                    <a href="#">Digital incubator</a>
+                    <a href="#">Careers</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s5">Support Pages</a>                     <!-- fifth menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Green room booking</a>
+                    <a href="#">Digital media hire</a>
+                    <a href="#">Quadcopter hire</a>
+                    <a href="#">Lab software</a>
+                    <a href="#">Free software</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s6">RGU Resources</a>                    <!-- sixth menu section -->
+                <div class="dropdown-content">
+                	<a href="http://www.rgu.ac.uk/">RGU</a>
+                    <a href="http://campusmoodle.rgu.ac.uk/">Campus Moodle</a>
+                    <a href="https://you.rgu.ac.uk/">YOU.RGU</a>
+                    <a href="https://www.rguunion.co.uk/">RGU:Union</a>
+                    <a href="#">Timetables</a>
+                    <a href="https://you.rgu.ac.uk/org/Health and Safety/">Health & Safety</a>
+                </div>
+            </li>
+ </section>                             <!-- end of menu -->
+     
+ <section class= "grid-20 tablet-grid-15 mobile-grid-100" id= "search">             <!-- search box and icon -->
+ <input id="searchBox" class="mobile-grid-50 mobile-prefix-20" type="search" placeholder="Search">
+ <img  id="searchIcon" class="mobile-prefix-15" src= "lupa.png" alt="Search Icon" />
+ </section>
+ </nav>     
+ <!-- end of navigation bar -->
+<h3 id = "location" class="grid-container">Home	> News & Events > News</h3>
+<section id="info" class="grid-container">
+<section id = "main" class="grid-75 tablet-grid-75 mobile-grid-100">
+<h1 id = "title" class="grid-100 tablet-grid-100 mobile-grid-100">News</h1>
+<section id = "articles" class="grid-100 tablet-grid-100 mobile-grid-100">
+<!-- main article -->
+<section id="mainArticle" class = "grid-100 tablet-grid-100 mobile-grid-100">
+                <div id = "mainImage" class="grid-66 tablet-grid-66 mobile-grid-100">
+                    <div id = "mainCaption" class="grid-90 tablet-grid-90 mobile-grid-90">
+                        <p id = "mainTitle">RGU computing students compete in Cyber Security Challenge</p>
+                        <p id ="mainAuthor">by Ian Harris on October 19, 2016</p>
+                    </div>
+                </div>
+
+                <div id = "mainFirstParagraph" class="grid-33 tablet-grid-33 mobile-grid-100">
+                <p>Dieter Holvoet, Florian Peyron, Alexa Noel and Brent De Hauwere from RGU’s School of Computing Science and Digital Media travelled to Edinburgh this month to take part in the Scottish Universities’ Cyber Security Challenge. <br>
+The Cyber Security Challenge is a series of national competitions, learning programmes, and networking initiatives designed to identify and inspire more EU citizens resident in the UK to become cyber security professionals [...]</p>
+<a href="article1.html" id="mainContinueReading">continue reading</a>
+                </div>
+</section>
+<!-- first article -->
+<section id = "article1"  class = "grid-100 tablet-grid-100 mobile-grid-100">
+<img id = "image1" class="image grid-25 tablet-grid-25 mobile-prefix-25 mobile-grid-50 mobile-suffix-25" src="news4.jpg" alt="Incubator News">
+<p id = "headline1" class="headline grid-75 tablet-grid-75 mobile-grid-100" >Incubator News – Converge Challenge 2016 Winners Announced</p>
+<p id = "paragraph1" class="firstParagraph grid-75 tablet-grid-75 mobile-grid-100">Converge  Challenge raises the bar once again £150,000  awarded to Scotland’s next generation of entrepreneurs   MindMate and MicroSense Technologies Ltd are announced as joint winners of Converge Challenge 2016 Second place is awarded to Chris Hughes of University of Strathclyde with Estendio New for 2016, the Design and Creativity prize awarded to Dr Alexander Enoch […]</p>
+<a class="continueReading grid-100 tablet-grid-100 mobile-grid-100" href="article4.html"><p>continue reading</p></a>
+</section>
+<!-- second article -->
+<section id = "article2"  class = "grid-100 tablet-grid-100 mobile-grid-100">
+<img id = "image2" class="image grid-25 tablet-grid-25 mobile-prefix-25 mobile-grid-50 mobile-suffix-25" src="news2.jpg" alt="Equipment Donation">
+<p id = "headline2" class="headline grid-75 tablet-grid-75 mobile-grid-100" >Harris CapRock Equipment Donation</p>
+<p id = "paragraph2" class="firstParagraph grid-75 tablet-grid-75 mobile-grid-100">Many thanks from RGU CSDM to the team at Harris CapRock for a donation of CISCO networking equipment. Global Infrastructure Director (Dale Gray), Engineering Manager (Jay Gray) and Operations Engineer (Obinna Edward Onugha) visited the computing labs at The Sir Ian Wood Building during our summer equipment refresh and brought along a very useful set […]</p>
+<a class="continueReading grid-100 tablet-grid-100 mobile-grid-100" href="article2.html"><p>continue reading</p></a>
+</section>
+<!-- third article -->
+<section id = "article3"  class = "grid-100 tablet-grid-100 mobile-grid-100">
+<img id = "image3" class="image grid-25 tablet-grid-25 mobile-prefix-25 mobile-grid-50 mobile-suffix-25" src="news3.jpg" alt="EANN 2016">
+<p id = "headline3" class="headline grid-75 tablet-grid-75 mobile-grid-100" >EANN 2016</p>
+<p id = "paragraph3" class="firstParagraph grid-75 tablet-grid-75 mobile-grid-100">The 17th International Conference on Engineering Applications of Neural Networks (EANN) took place at RGU on September, 2016. Since the first conference in 1995, EANN has provided a vibrant discussion forum on engineering applications of neural networks and related artificial intelligence methods. Neural networks are adaptive learning systems that increasingly form part of data mining and […]</p>
+<a class="continueReading grid-100 tablet-grid-100 mobile-grid-100" href="article3.html"><p>continue reading</p></a>
+</section>
+</section>
+<section id = "pages" class = "grid-100 tablet-grid-100 mobile-grid-100">
+<a class="prefix-40 grid-5 tablet-prefix-40 tablet-grid-5 mobile-prefix-40 mobile-grid-5"  href="news.html"><p>1</p></a>
+<a class="grid-5 tablet-grid-5 mobile-grid-5" href="#"><p>2</p></a>
+<a class="grid-5 tablet-grid-5 mobile-grid-5" href="#"><p>...</p></a>
+<a class="grid-5 tablet-grid-5 mobile-grid-5" href="#"><p>45</p></a>
+<a href="#"><img class="grid-5 tablet-grid-5 mobile-grid-5" src="rightArrows.png" alt="Next Page"></a>
+</section>
+
+</section>
+<section id = "sidebar" class="grid-25 tablet-grid-25 mobile-prefix-15 mobile-grid-70 mobile-suffix-15">
+<section id="socialMediaPlugins">
+<input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><img id= "fbPlugin" src="fbPluginActive.jpg" alt="Facebook"></label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><img id= "twitterPlugin" src="twitterPluginUnactive.jpg" alt="Twtter"></label>
+    
+  <input id="tab3" type="radio" name="tabs" >
+  <label for="tab3"><img id= "instaPlugin" src="instaPluginUnactive.jpg" alt="Instagram"></label>
+  
+  <section class = "tab" id="content1">
+  
+<iframe class="hide-on-tablet" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frobertgordonuniversity%2F&tabs=timeline&width=280&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe class="hide-on-desktop hide-on-mobile" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frobertgordonuniversity%2F&tabs=timeline&width=227&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="227" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  </section>
+    
+  <section class = "tab" id="content2">
+<a class="twitter-timeline grid-100 tablet-grid-100" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/RobertGordonUni" width="280"  height="350" style="overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">Tweets by RobertGordonUni</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
+    
+  <section class = "tab" id="content3">
+  <img class = "grid-100 tabblet-grid-100 instaTab" src="instagramPhoto.jpg" alt="Instagram widget" style = "height:350px; padding:0">
+  </section>
+  </section>
+<section id = "trending"> 
+<h1>Trending</h1>
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="more">more</p>
+</section>
+<section id = "timetableChanges"> 
+<h1>Timetable changes</h1>
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="more">more</p>
+</section>
+</section>
+</section>
+</main>
+<footer id = "footer" class="grid-100 tablet-grid-100">
+  <ul class="prefix-25 grid-50 tablet-prefix-25 tablet-grid-50 mobile-prefix-5 mobile-grid-90">
+<li><a href="#">Accessibility | </a></li>
+<li><a href="#">Privacy | </a></li>
+<li><a href="#">Cookie Preferences | </a></li>
+<li><a href="#">Sitemap | </a></li>
+<li><a href="#">Copyright</a></li>
+</ul>
+</footer>
+</body>
+</html> 

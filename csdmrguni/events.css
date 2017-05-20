@@ -1,0 +1,51 @@
+@charset "utf-8";
+*  {
+	font-family: 'Questrial', sans-serif;
+}
+
+#location {
+	text-transform:uppercase;
+	color:#AEAFB2;
+	font-weight:500;
+}
+#title {
+	font-size:250%;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0;
+	margin-bottom:0;
+}
+#month {
+	text-align:right;
+	font-size:xx-large;
+	font-weight:600;
+}
+.day {
+	margin:0.5%;
+	background-color: #EDEDEE;
+	padding:0;
+}
+.date {
+	margin:0;
+	padding:0;
+}
+.event {
+	margin:0;
+}
+.event {
+	font-size:150%;
+	padding:1%;
+}
+#right p {
+	text-align:right;
+}
+#right p, #left p {
+	color:#58585A;
+	font-size:120%;
+	font-weight:500;
+}
+@media all and (max-width : 767px) {
+.event {
+	font-size:120%;
+}
+}

@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@media all and (min-width : 1025px) {
+*  {
+	font-family: 'Questrial', sans-serif;
+}
+body{
+	margin:0;
+	background-color:white;
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+#logos {
+	background-color:white;	
+	max-width:100%;
+	padding:0.5%;
+
+}
+#rguLogo {
+	float: left;
+	max-width: 100%;
+}
+#inst, #tw, #fb {
+	float: right;
+	max-width: 7%;
+	padding:0.5%;
+	margin-top:2.5%;
+}
+#nav {
+background-color:#35093e;
+}
+#menu {
+	list-style: none outside none;
+	font-family: 'Questrial', sans-serif;
+}
+#aboutUs {
+	padding-top:18%;
+}
+.dropdown-content {
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position: fixed;
+	width: 10%;
+	display: none;
+}
+.dropdown-content a {
+	font-size: 1vw;
+	display: block;
+	color: #35093e;
+	text-decoration: none;
+	text-align: left;
+	padding: 2%;
+	z-index: 10;
+}
+.dropdown {
+float: left;
+-moz-transition: all 300ms ease-in-out 0s;
+-ms-transition: all 300ms ease-in-out 0s;
+-o-transition: all 300ms ease-in-out 0s;
+-webkit-transition: all 300ms ease-in-out 0s;
+transition: all 300ms ease-in-out 0s;
+
+}
+.dropdwnBtn {
+display: block;
+border-top: medium solid transparent;
+text-decoration: none;
+-moz-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+-ms-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+-o-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+-webkit-transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
+color: white;
+font-size: 1.1vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 15%;
+	padding-bottom:7%;
+}
+.dropdwnBtn:hover, .dropdown:hover .dropdwnBtn{
+	border-top: medium solid #89d41a;
+	color: #89d41a;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown-content :hover {
+    background-color:#35093E;
+    color:white
+}
+.dropdown-content:hover .dropdwnBtn {
+	border-top: medium solid #89d41a;
+	color: #89d41a;
+}
+#search {
+	background-color:#35093E;
+	padding-top:0.5%;
+	margin-top:0.5%;
+	border-top: thin solid transparent;
+}
+#searchBox{
+	font-family: 'Questrial', sans-serif;
+	width:80%;
+	font-size: medium;
+	float: left;
+	border: thin solid transparent;
+	color: white;
+	background-color: transparent;
+	display:block;
+}
+
+#search:hover{
+	border-top: medium solid #89d41a;
+	color:#89D41A;
+}
+#search:hover #searchIcon{
+	content: url(lupaHover.png);
+	padding-top: 0.5%;
+	padding-left: 0.2%;
+	padding-right: 0.2%;
+}
+#search:hover #searchBox{
+	color:#89D41A;
+}
+#searchBox{
+	font-family: 'Questrial', sans-serif;
+	font-size: medium;
+	border: thin solid transparent;
+	color: white;
+	background-color: transparent;
+}
+#searchIcon {
+	border-top: medium solid transparent;
+	float:right;
+	width: 10%;
+	padding-top: 0.5%;
+	padding-left: 0.2%;
+	padding-right: 0.2%;
+}
+
+#searchBox:Focus, #searchBox:hover {
+	color:#89D41A;	
+}
+
+
+
+
+#sidebar {
+	margin-top:4%;
+	margin-bottom:5%
+}
+.tab {
+display:none;
+}
+input {
+  display: none;
+}
+
+label:hover {
+	  cursor: pointer;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+#tab1:checked ~ #fbPlugin,
+#tab2:checked ~ #twitterPlugin,
+#tab3:checked ~ #instaPlugin{
+	width:15%;
+}
+#tab1:unchecked ~ #fbPlugin,
+#tab2:unchecked ~ #twitterPlugin,
+#tab3:unchecked ~ #instaPlugin{
+	width:10%;
+}
+#fbPlugin {
+	width:15%;
+}
+#twitterPlugin {
+	width:10%;
+}
+#instaPlugin {
+	width:10%;
+}
+
+#trending {
+	height:350px;
+	background-color:#D5D6D8;
+	
+}
+#trending p {
+
+}
+#trending h1{
+	color:#3A3A3C;
+}
+.text {
+	color:#3A3A3C;
+	font-size:100%;
+	margin-top:-12%;
+	padding:10%;
+	height:50%;
+}
+.more {
+	margin-top:-1%;
+	margin-bottom:-250%;
+	float:right;
+	padding-right:10%;
+	font-size:100%;
+	font-weight:500;
+}
+.more:hover {
+	cursor:pointer;
+}
+#timetableChanges {
+	height:350px;
+	background-color:#3A3A3C;
+
+}
+#timetableChanges h1{
+	color:#D5D6D8;
+}
+#timetableChanges p{
+	color:#D5D6D8;
+}
+#sidebar h1 {
+	padding:7%;
+	font-size:140%;
+	font-weight:500;
+	text-transform:uppercase;
+	height:10%;
+}
+
+
+
+
+#footer {
+	margin-top:3%;
+	height:75px;
+	background-color:#1C1C1F;
+}
+#footer li {
+	text-align:left;
+	display:inline;
+}
+#footer ul a{
+	list-style-type:none;
+	text-decoration:none;
+	color:white;
+}
+}
+

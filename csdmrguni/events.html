@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content= "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+<title>Events</title>
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jQueries.js"></script><!--   -->
+<style type="text/css">
+@import url("unsemantic-grid-responsive-tablet.css");
+</style>
+<link href="menuDesktop.css" rel="stylesheet" type="text/css">
+<link href="menuMobile.css" rel="stylesheet" type="text/css">
+<link href="menuTablet.css" rel="stylesheet" type="text/css">
+<link href="events.css" rel="stylesheet" type="text/css">
+
+<!-- twitter plugin start -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<!-- twitter plugin end-->
+
+</head>
+
+<body>
+<main>
+<header class = "grid-container" id= "logos">
+ <section class="grid-25 suffix-50 tablet-grid-25 tablet-suffix-50 mobile-grid-100" >  <!--icons for the hamburger menu  -->
+    <img src="menuIcon.png" alt="Hamburger menu" id ="menuIcon" class= "hide-on-tablet hide-on-desktop mobile-grid-10">
+    
+ 
+ <a href="index.html"><img id= "rguLogo" src="RGU LOGO(2).jpg" alt="RGU Logo" class= "mobile-grid-90"></a>    <!-- RGU logo -->
+ </section>
+ <section id= "socialMediaLogos" class="grid-25 tablet-grid-25 mobile-grid-100 hide-on-mobile">      <!-- Logos of social media -->
+ <a href="https://www.instagram.com/robertgordonuni/"><img id="inst" class="mobile-grid-33" src="instagramLogo.png" alt="Instagram Logo" /></a>
+<a href="https://twitter.com/robertgordonuni"><img id="tw" class= "mobile-grid-33" src="twitterLogo.png" alt="Twitter Logo" /></a>
+<a href="https://www.facebook.com/robertgordonuniversity/"><img id="fb" class= "mobile-grid-33" src="fbLogo.png" alt="Facebook Logo" /></a> 
+ </section>
+
+ </header>    
+ <!-- Navigation bar -->
+ <nav class= "grid-100 tablet-grid-100 mobile-grid-100 " id= "nav" >
+  <!-- Menu start -->
+  
+ <section class= "grid-60 prefix-20 tablet-grid-60 tablet-prefix-10 tablet-suffix-5 mobile-grid-100" id= "menu">
+ <li class="dropdown"><a id = "aboutUs" class="dropdwnBtn" href="#s1">About Us<img src="menuExit.png" alt="Hamburger menu exit" id ="menuExit" class= "hide-on-tablet hide-on-desktop mobile-grid-10"></a>                                <!-- first menu section -->
+                <div class="subs dropdown-content">
+                    <a href="contacts.html">Contact us</a>
+                    <a href="#">Staff list</a>
+                    <a href="#">FAQ</a>
+                </div>
+      </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s2">Our Courses</a>                    <!-- second menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Undegraduate</a>
+                    <a href="#">Postgraduate</a>
+                    <a id="sub" href="#">Research</a>
+                    <ul id="subItems">                                                            <!-- submenu section -->
+                        <a  href="#">Internship</a>
+                        <a  href="#">PhD research</a>
+                        <a  href="#">Fully funded research opportunities</a>
+                    </ul>
+                    <a href="#">Part time</a>
+                    <a href="#">Distance learning</a>
+                    <a href="#">Short courses</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s3">News & Events</a>                   <!-- third menu section -->
+                <div class="dropdown-content">
+                    <a href="news.html">News</a>
+                    <a href="events.html">Events</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s4">Opportunities</a>                    <!-- fourth menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Talent Exchange</a>
+                    <a href="#">Digital incubator</a>
+                    <a href="#">Careers</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s5">Support Pages</a>                     <!-- fifth menu section -->
+                <div class="dropdown-content">
+                    <a href="#">Green room booking</a>
+                    <a href="#">Digital media hire</a>
+                    <a href="#">Quadcopter hire</a>
+                    <a href="#">Lab software</a>
+                    <a href="#">Free software</a>
+                </div>
+            </li>
+            <li class="dropdown"><a class="dropdwnBtn" href="#s6">RGU Resources</a>                    <!-- sixth menu section -->
+                <div class="dropdown-content">
+                	<a href="http://www.rgu.ac.uk/">RGU</a>
+                    <a href="http://campusmoodle.rgu.ac.uk/">Campus Moodle</a>
+                    <a href="https://you.rgu.ac.uk/">YOU.RGU</a>
+                    <a href="https://www.rguunion.co.uk/">RGU:Union</a>
+                    <a href="#">Timetables</a>
+                    <a href="https://you.rgu.ac.uk/org/Health and Safety/">Health & Safety</a>
+                </div>
+            </li>
+ </section>                             <!-- end of menu -->
+     
+ <section class= "grid-20 tablet-grid-15 mobile-grid-100" id= "search">             <!-- search box and icon -->
+ <input id="searchBox" class="mobile-grid-50 mobile-prefix-20" type="search" placeholder="Search">
+ <img  id="searchIcon" class="mobile-prefix-15" src= "lupa.png" alt="Search Icon" />
+ </section>
+ </nav>      
+ <!-- end of navigation bar -->
+<h3 id = "location" class="grid-container">Home	> News & Events > Events</h3>
+<section id="info" class="grid-container">
+<section id = "main" class="grid-75 tablet-grid-75 mobile-grid-100">
+<h1 id = "title" class="grid-100 tablet-grid-100 mobile-grid-100">Events</h1>
+<p id = "month" class="prefix-75 grid-25 tablet-prefix-75 tablet-grid-25 mobile-prefix-50 mobile-grid-50">december</p>
+<section id = "table" class="grid-100 tablet-grid-100 mobile-grid-100">
+<div id= "1" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/1.jpg" alt="1st">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "2" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/2.jpg" alt="2nd">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "3" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/3.jpg" alt="3rd">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "4" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/4.jpg" alt="4th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "5" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/5.jpg" alt="5th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "6" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/6.jpg" alt="6th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "7" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/7.jpg" alt="7th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "8" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/8.jpg" alt="8th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "9" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/9.jpg" alt="9th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+<p class="grid-100 tablet-grid-100 mobile-grid-100"></p>
+</div>
+</div>
+<div id= "10" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/10.jpg" alt="10th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "11" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/11.jpg" alt="11th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "12" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/12.jpg" alt="12th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "13" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/13.jpg" alt="13th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "14" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/14.jpg" alt="14th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "15" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/15.jpg" alt="15th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "16" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-10 tablet-grid-10 mobile-grid-15" src="events/h16.jpg" alt="24th">
+<div class="event grid-90 tablet-grid-90 mobile-grid-85">
+End of 1st semester teaching
+</div>
+</div>
+<div id= "17" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/17.jpg" alt="17th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "18" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/18.jpg" alt="18th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "19" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/19.jpg" alt="19th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "20" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/20.jpg" alt="20th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "21" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/21.jpg" alt="21st">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "22" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/22.jpg" alt="22nd">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "23" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/23.jpg" alt="23rd">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "24" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-10 tablet-grid-10 mobile-grid-15" src="events/h24.jpg" alt="24th">
+<div class="event grid-90 tablet-grid-90 mobile-grid-85">
+Christmas Eve
+</div>
+</div>
+<div id= "25" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/25.jpg" alt="25th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "26" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/26.jpg" alt="26th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "27" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/27.jpg" alt="27th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "28" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/28.jpg" alt="28th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "29" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/29.jpg" alt="29th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "30" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/30.jpg" alt="30th">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+<div id= "31" class="day grid-100 tablet-grid-100 mobile-grid-100">
+<img class="date grid-5 tablet-grid-5 mobile-grid-10" src="events/31.jpg" alt="31st">
+<div class="event grid-95 tablet-grid-95 mobile-grid-90">
+</div>
+</div>
+</section>
+<section class="grid-100 tablet-grid-100 mobile-grid-100">
+<div id = "left" class="grid-50 tablet-grid-50 mobile-grid-50">
+<img class="grid-10 tablet-grid-15 mobile-grid-15" src="leftArrow.png" alt="Left Arrow">  
+<p class="grid-90 tablet-grid-85 mobile-grid-85">november</p> 
+</div>
+<div id="right" class="grid-50 tablet-grid-50 mobile-grid-50">
+<p class="grid-90 tablet-grid-85 mobile-grid-85">january </p> 
+<img class="grid-10 tablet-grid-15 mobile-grid-15" src="rightArrow.png" alt="Right Arrow">  
+</div>
+</section>
+</section>
+<section id = "sidebar" class="grid-25 tablet-grid-25 mobile-prefix-15 mobile-grid-70 mobile-suffix-15">
+<section id="socialMediaPlugins">
+<input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><img id= "fbPlugin" src="fbPluginActive.jpg" alt="Facebook"></label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><img id= "twitterPlugin" src="twitterPluginUnactive.jpg" alt="Twtter"></label>
+    
+  <input id="tab3" type="radio" name="tabs" >
+  <label for="tab3"><img id= "instaPlugin" src="instaPluginUnactive.jpg" alt="Instagram"></label>
+  
+  <section class = "tab" id="content1">
+  
+<iframe class="hide-on-tablet" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frobertgordonuniversity%2F&tabs=timeline&width=280&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+<iframe class="hide-on-desktop hide-on-mobile" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frobertgordonuniversity%2F&tabs=timeline&width=227&height=350&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="227" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  </section>
+    
+  <section class = "tab" id="content2">
+<a class="twitter-timeline grid-100 tablet-grid-100" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/RobertGordonUni" width="280"  height="350" style="overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">Tweets by RobertGordonUni</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
+    
+  <section class = "tab" id="content3">
+  <img class = "grid-100 tabblet-grid-100 instaTab" src="instagramPhoto.jpg" alt="Instagram widget" style = "height:350px; padding:0">
+  </section>
+  </section>
+<section id = "trending"> 
+<h1>Trending</h1>
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="more">more</p>
+</section>
+<section id = "timetableChanges"> 
+<h1>Timetable changes</h1>
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="more">more</p>
+</section>
+</section>
+</section>
+
+
+
+
+</main>
+<footer id = "footer" class="grid-100 tablet-grid-100">
+  <ul class="prefix-35 grid-35 tablet-prefix-35 tablet-grid-35">
+<li><a href="#">Accessibility | </a></li>
+<li><a href="#">Privacy | </a></li>
+<li><a href="#">Cookie Preferences | </a></li>
+<li><a href="#">Sitemap | </a></li>
+<li><a href="#">Copyright</a></li>
+</ul>
+</footer>
+</body>
+</html> 
